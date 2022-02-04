@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+}
+
+.head-section {
+  overflow: hidden;
+  width: 99%;
+  height: 10%;
+}
+.head-section ul li {
+  float: right;
+  list-style: none;
+  padding: 0px 10px 40px 0px;
+}
+#site {
+  padding: 39px 36px 20px 50px;
+}
+.mid {
+  width: 90%;
+  height: 80%;
+  
+  margin: 10px 0px;
+  padding: 1px 82px 2px 16px;
+}
+.mid1 {
+  width: 99%;
+  height: 40%;
+  
+  margin: 10px 0px;
+  padding: 21px 17px;
+  background-color: lightgray;
+}
+.mid2 {
+  width: 72%;
+  height: 40%;
+  
+  margin: 10px 0px;
+  padding: 23px 151px;
+  display: flex;
+}
+.foot1 {
+  width: 72%;
+  
+  padding: 3px 297px 76px 0px;
+  margin: 10px 0px;
+}
+.mid1version1 {
+  width: 30%;
+  
+  margin: 1px;
+  padding: 0px 24px 20px 0px;
+}
+.mid1version1 h2,
+p,
+button {
+  padding: 10px;
+}
+button {
+  margin-left: 10px;
+}
+.block {
+  width: 30%;
+  height: 40%;
+  
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+}
+.card {
+  
+  margin: auto;
+background-color: lightgray;
+  padding: 52px 42px;
+}
+.foot1 {
+background-color: lightgray;
+  padding-top: 40px;
+  padding-left: 100px;
+  overflow: hidden;
+  width: 70%;
+  height: 20%;
+}
+footer h1 {
+  padding-left: 104px;
+  padding-top: 0px;
+  display: inline;
+}
+
+input[type="submit"] {
+  float: right;
+  margin: 1px 0px 0px 13px;
+  padding: 7px 100px 6px 44px;
+  background-color: blue;
+  color: white;
+}
+
+input[type="text"] {
+  padding: 11px 65px 5px 1px;
+}
+
+form {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 10px 0px 0px;
+  float: right;
+}
+#foot2 {
+    padding-top: 10px;
+    display: inline;
+}
+#foot3 {
+    padding-bottom: 10px;
+    display: inline;
+    float: right;
+}
+@media screen and (max-width: 580px) {
+
+
+    .mid2 {
+      display: block;
+    }
+    .block {
+   width: 60%;
+    }
+  }
